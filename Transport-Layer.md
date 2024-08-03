@@ -1,11 +1,12 @@
 <div align=center>
+<h3>6</h3>
   <h1>Transport Layer</h1>
 </div>
 
 
 ## Transport Layer
 
-- Let's say me and my friend are chatting on a messenger app. I send a message to my friend. This part of transferring that message from me to my friend is done by Networking Layer.
+- Let's say me and my friend are chatting on a messenger app. I send a message to my friend. This part of transferring that message from me to my friend is done by **Networking Layer**.
 - Transport lies inside the device meaning transferring data inside a single device from the internet.
 - The `Networking Layer` transfers data from one device to another.
 - Transport Layer takes that data from Networking layer and sends it to the correct application.
@@ -21,9 +22,10 @@
 
 ### Multiplexer and Demultiplexer
 
+  
 - The transport layer multiplexer is located on the device from where the message/data is being sent and demultiplexer is on the device which receives the sent message.
 - The transport layer is connected to the application using sockets and these sockets are running on port numbers.
-- The transport layer also takes care of congestion like a lot of traffic on the same address or sending a lot of packets at once because of high upload speed that may cause data loss.
+- The transport layer also takes care of congestion(traffic) control like a lot of traffic on the same address or sending a lot of packets at once because of high upload speed that may cause data loss.
 - Various congestion control algorithms are used for congestion control.
 - Congestion control algorithms are built-in in TCP/IP.
 

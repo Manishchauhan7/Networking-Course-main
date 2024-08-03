@@ -1,4 +1,5 @@
 <div align=center>
+<h3>7</h3>
   <h1>UDP</h1>
 </div>
 
@@ -6,9 +7,9 @@
 
 - UDP stands for User Datagram Protocol.
 - It is used to transport data from Network Layer to Transport Layer.
-- Here data may or may not be delivered.
+- Here data may or may not be delivered, data may change, or data may not in order.
 - Data loss can happen in this type of connection.
-- A connectionless protocol.
+- It is a connectionless protocol.
 - No connection is established between devices but still the data is sent to devices.
 - UDP uses checksum if the data is corrupted or not but it will not do anything about it.
 - UDP is faster as it is not checking if the data is received, not giving any feedback, etc.
@@ -20,7 +21,7 @@
 - Length of the packet is known as Datagram and is also added to the packet header (2 bytes).
 - Checksum is added to the header (2 bytes).
 - Total size: 2^16 bytes.
-- Header is of 8 bytes => port numbers, length of the packet, checksum.
+- Header is of 8 bytes => source port numbers, length of the datagram, destination port no. , checksum.
 - Size of the data = 2^16 - 8 bytes.
 
 

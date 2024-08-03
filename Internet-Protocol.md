@@ -1,4 +1,5 @@
 <div align=center>
+<h3>9</h3>
   <h1>Internet Protocol</h1>
 </div>
 
@@ -15,13 +16,13 @@
 
 ## IPv4
 
-- This is `32-bit` address.
+- This is **`32-bit`** address.
 - Using IPv4, we can make 2^32 IP Address.
 - Ex. `192.168.1.1`.
 
 ## IPv6
 
-- These are `128-bit` addresses.
+- These are **`128-bit`** addresses.
 - There can be 2^128 IPv6 Addresses => 3.4 * 10^38 IP Addresses.
 - This IP Address is not backward compatible with IPv4, and IPv4 hosts and routers will not be able to deal directly with IPv6 traffic and vice-versa.
 
@@ -41,12 +42,13 @@
 
 
 ## Classes of IP
-
-- Class A => 0.0.0.0 - 127.255.255.255
-- Class B => 128.0.0.0 - 191.255.255.255
-- Class C => 192.0.0.0 - 223.255.255.255
-- Class D => 224.0.0.0 - 239.255.255.255
-- Class E => 240.0.0.0 - 255.255.255.255
+- Classes of IP is just a range of IP addresses:
+  
+                              - Class A => 0.0.0.0   -  127.255.255.255
+                              - Class B => 128.0.0.0 - 191.255.255.255
+                              - Class C => 192.0.0.0 - 223.255.255.255
+                              - Class D => 224.0.0.0 - 239.255.255.255
+                              - Class E => 240.0.0.0 - 255.255.255.255
 
 
 ## Subnet Mask
